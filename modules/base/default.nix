@@ -78,7 +78,6 @@ in {
   # Trim some fat
   # This causes an overlay which causes a lot of rebuilding
   environment.noXlibs = lib.mkForce false;
-  security.polkit.enable = false;
   # Limit the journal size to X MB or last Y days of logs
   services.journald.extraConfig = ''
     SystemMaxUse=1536M
