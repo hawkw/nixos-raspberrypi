@@ -8,6 +8,8 @@
     ./platform.nix
     ./kernel.nix
     ./pkgs-overlays.nix
+    ./audio.nix
+    ./hifiberry-dac
     ./hifiberry-dacplusadc
     ./hifiberry-dacplusdsp
     ./hifiberry-dacplus
